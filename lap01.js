@@ -13,3 +13,15 @@ for (let i = 0; i < arr.length; i++) {
     }
     
     console.log('thứ tự tăng dần là', temp)
+
+
+
+let maxx = arr[0]
+for (let i = 0; i < arr.length; i++) {
+    if (maxx < arr[i]) {
+        maxx = arr[i]
+    }
+    
+}
+
+console.log('phan tu lon nhat la', maxx)
